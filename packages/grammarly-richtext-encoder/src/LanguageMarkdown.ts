@@ -28,7 +28,7 @@ const IGNORED_NODES = new Set([
   'list_marker',
   'setext_h1_underline',
   'setext_h2_underline',
-
+  'code_span',
   'table_cell',
   'table_column_alignment',
   'table_data_row',
@@ -40,7 +40,6 @@ const IGNORED_NODES = new Set([
 const OTHER_NODES = new Set([
   'backslash_escape',
   'character_reference',
-  'code_span',
   'email_autolink',
   'emphasis',
   'hard_line_break',
